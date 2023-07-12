@@ -156,4 +156,30 @@ console.log(NumberOf);
 //     // weekday: "long",
 //     dateStyle: "long"
 // }))
+
+// Array
+
+// let firstArray = [10,20,30]
+// console.log(firstArray);
+
+// let secondArray = new Array("Affan","Adnan")
+// console.log(secondArray)
+
+// console.log(firstArray.concat(secondArray));
+// console.log(firstArray.includes(10));
+// console.log(secondArray.indexOf("Adnan"));
+// console.log(firstArray.push(40,50,60));
+// console.log(firstArray);
+// console.log(firstArray.join(secondArray));
+ 
+//slice and splice
+
+// let affan = [10,20,30,40,50]
+
+// console.log("A",affan);
+// console.log(affan.slice(1,4));
+// console.log("B",affan);
+// console.log(affan.splice(1,3));
+// console.log("C",affan);
+
   
