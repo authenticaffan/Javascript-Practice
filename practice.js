@@ -182,4 +182,91 @@ console.log(NumberOf);
 // console.log(affan.splice(1,3));
 // console.log("C",affan);
 
-  
+// Array Continution
+
+// const name2 = ["Affan","Adnan","irbaz"]
+// const name1 = ["Anas","yousuf"]
+
+// console.log(name.concat(name1));
+
+// const name3 = [...name1,...name2]
+// console.log(name3);
+
+// const arr  = [1,2,3,4,5,[6,7,8,[9,10,11,[12,13]]]]
+// console.log(arr.flat(Infinity));
+
+// const arr1 = ["cow","cat","dog"]
+// const arr2 = ["rat","goat"]
+// // console.log(Array.isArray(arr1));
+// // console.log(Array.from("Affan"));
+// console.log(Array.of(arr1,arr2));
+
+//objects
+
+// const key = Symbol("001")
+
+// const obj = {
+//     name: "Affan", "full_name": "Mohamed Affan",
+//     dept: "CSE",
+//     year: 3,
+//     clg: "CAHCET",
+//     [key]: 100,
+// }
+
+// console.log(obj);
+// console.log(obj["full_name"]);
+// console.log(obj["name"]);
+// console.log(obj.dept);
+
+// obj.greetings = function(){
+//     console.log("Hello Mohamed Affan");
+// }
+// obj.greetings2 = function(){
+//     console.log(`Hello Mohamed Affan of ${this.dept} dept`);
+// }
+
+// obj.greetings2()
+
+//  const obj1 = {
+//     1: "a",
+//     2: "b",
+//  }
+
+//  const obj2 = {
+//     3: "c",
+//     4: "d",
+//  }
+
+//  console.log(Object.assign({},obj1,obj2));
+//  const obj3 = {...obj1,...obj2}
+//  console.log(obj3);
+
+// const userDetails = [
+//     {
+//         id: 10,
+//     },
+//     {
+//         id: 20,
+//     }
+// ]
+// console.log(userDetails[1].id);
+
+// console.log(Object.keys(obj1));
+// console.log(Object.values(obj1));
+// console.log(Object.entries(obj1));
+
+// console.log(obj1.hasOwnProperty(2));
+
+// object de-structure
+
+// const userDetails = {
+//     userName: "Affan",
+//     dept: "CSE",
+// }
+
+// console.log(userDetails.userName);
+
+// const {userName: name1} = userDetails
+
+// console.log(name1);
+
